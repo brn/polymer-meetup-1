@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "strict": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": false,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "baseUrl": "./",
+    "importHelpers": false,
+    "alwaysStrict": true,
+    "sourceMap": true,
+    "lib": [
+      "dom",
+      "es5",
+      "ES2015",
+      "es2016",
+      "es2017"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "lib",
+    "build"
+  ]
+}

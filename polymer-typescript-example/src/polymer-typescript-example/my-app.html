@@ -1,0 +1,17 @@
+<link rel="import" href="../../bower_components/imd/imd.html">
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../../bower_components/polymer-decorators/polymer-decorators.html">
+<link rel="import" href="./my-hello.html">
+
+<dom-module id="my-app">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <my-hello name="[[appName]]"/>
+  </template>
+
+  <script src="./my-app.js"></script>
+</dom-module>

@@ -1,0 +1,6 @@
+{
+  "name": "ts-redux",
+  "short_name": "ts-redux",
+  "start_url": "/",
+  "display": "standalone"
+}

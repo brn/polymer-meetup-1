@@ -1,0 +1,22 @@
+{
+  "name": "polymer-typescript-example",
+  "version": "0.0.0",
+  "description": "Examples polymer with typescript",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "polymer test",
+    "ts": "tsc -p tsconfig.json",
+    "watch": "tsc -p tsconfig.json --watch",
+    "serve": "polymer serve",
+    "debug": "run-p watch serve"
+  },
+  "author": "Taketoshi Aono(brn)",
+  "license": "MIT",
+  "devDependencies": {
+    "npm-run-all": "^4.1.1",
+    "typescript": "^2.5.3"
+  }
+}

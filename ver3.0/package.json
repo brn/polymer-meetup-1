@@ -1,0 +1,24 @@
+{
+  "name": "ver3.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "polymer test",
+    "ts": "tsc -p tsconfig.json",
+    "watch": "tsc -p tsconfig.json --watch",
+    "serve": "polymer serve",
+    "debug": "run-p watch serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@polymer/polymer": "next",
+    "@webcomponents/webcomponentsjs": "^1.0.17",
+    "polymer-decorators": "^0.1.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.1",
+    "typescript": "^2.6.1"
+  }
+}
