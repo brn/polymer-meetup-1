@@ -6,13 +6,16 @@ Polymer meetup#1 Polymer with TypeScript examples.
 ## Install
 
 ```bash
-npm install polymer-cli -g
+npm install polymer-cli bower yarn -g
 ```
 
 ## v2
 
 ```bash
 cd polymer-typescript-example
+
+yarn install
+bower install
 
 npm run debug
 ```
@@ -21,6 +24,8 @@ npm run debug
 
 ```bash
 cd ver3.0
+
+yarn install
 
 npm run debug
 ```
