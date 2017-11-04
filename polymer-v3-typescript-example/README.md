@@ -1,4 +1,4 @@
-# \<polymer-typescript-example\>
+# \<polymer-v3-typescript-example\>
 
 
 

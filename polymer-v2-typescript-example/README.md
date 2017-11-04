@@ -1,4 +1,4 @@
-# \<ver3.0\>
+# \<polymer-v2-typescript-example\>
 
 
 

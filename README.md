@@ -12,7 +12,7 @@ npm install polymer-cli bower yarn -g
 ## v2
 
 ```bash
-cd polymer-typescript-example
+cd polymer-v2-typescript-example
 
 yarn install
 bower install
@@ -23,7 +23,7 @@ npm run debug
 ## v3
 
 ```bash
-cd ver3.0
+cd polymer-v3-typescript-example
 
 yarn install
 
